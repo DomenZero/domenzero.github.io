@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LEPOTULI &mdash; захватывающие дух разработки</title>
+		<link rel="stylesheet" href="css/all.css" type="text/css" />
+		<!-- <link rel="stylesheet" href="css/header.css" type="text/css" /> -->
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width">
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
+		    <script>
+/*		          $(function(){
+        $(".digits").countdown({
+          image: "img/digits.png",
+          format: "hh:mm:ss",
+          startTime: "40:25:14"
+        });
+      });*/
+/*      $(function(){
+        $(".digits").countdown({
+          image: "img/digits.png",
+          format: " Дней: dd Часов: hh:mm:ss",
+          endTime: new Date(2016, 13, 12)
+        });
+      });*/
+/*$(function(){
+        $(".digits").countdown({
+          image: "img/digits.png",
+          format: " Дней: dd Часов: hh:mm:ss",
+          endTime: "";
+        });
+      });
+*/
+$(function(){
+  $('.digits').countdown({
+    image: "img/digits.png",
+    format: "Дней: dd Часов: hh:mm:ss",
+    endTime: new Date('2016, 1, 17')
+  });
+        });
+    </script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="box-video section">
+				<div class="video">
+					<div class="easyhtml5video" style="position:relative;">
+						<video muted autoplay="autoplay" poster="video/intro.png" style="width:100%;" title="640" loop="loop" onended="var v=this;setTimeout(function(){v.play()},300)" preload="auto">
+							<source src="video/Intro.mp4" />
+						</video>
+					</div>
+				</div>
+			</div>
+			<header id="header" class="section">
+				<div class="top-head">
+					<strong class="logo"><a href="/" onclick="return false;"></a></strong>
+					<nav id="nav">
+						<ul class="top-menu">
+							<li><a href="http://креатив-клуб.рф">Креатив-клуб </a></li>
+							<li><a href="http://autorist.ru">Автоюрист </a></li>
+							<li><a href="https://play.google.com/store/apps/details?id=com.lepotuli.layla.vogame">Layla &mdash; интеллектуальный счетчик</a></li>
+							<li><a href="https://vk.com/domen0">Связь в контакте</a></li>
+							<li><a href="mailto:lepotuli@gmail.com">lepotuli@gmail.com</a></li>
+							<li><a href="tel:+79627257054">8(962) 725-70-54</a></li>
+
+						</ul>
+					</nav>
+				</div>
+				<div class="center">
+					<div class="box-head">
+						<h1>Lepotuli приветствует Вас.</h1>
+						<p>Готовится оригинальный сайт. Сейчас он в стадии переноса и доработки. </p>
+						<h2>До релиза </h2> <div class="digits"></div>
+					</div>
+				</div>
+			</header>
+			</div>
+	</body>
+</html>
