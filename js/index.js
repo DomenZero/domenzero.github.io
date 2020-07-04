@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $('.mobile-button a').click(function(e) {
 	$(this).parent().parent().toggleClass('open');
-  $(this).html($(this).html() == 'Закрыть меню' ? 'Меню' : 'Закрыть меню');
+  $(this).html($(this).html() == 'Close menu' ? 'Menu' : 'Close menu');
     e.preventDefault();
   });
 });
