@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mgrok Village Run – MVP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f14;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #ddd;
+    }
+    canvas {
+      border: 2px solid #333;
+      box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    }
+    .hint {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+  <script src="game.js"></script>
+  <div class="hint">
+    Arrows: move | Space: dodge | Down: dive | E: feed rabbit | Click to enable sound
+  </div>
+</body>
+</html>
