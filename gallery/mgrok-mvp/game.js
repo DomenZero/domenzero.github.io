@@ -63,10 +63,11 @@ class VillageRun extends Phaser.Scene {
     graphics.generateTexture("road", 800, 60);
     graphics.clear();
 
-    graphics.fillStyle(0x00d9ff, 1);
-    graphics.fillRoundedRect(0, 0, 40, 24, 4);
-    graphics.generateTexture("player", 40, 24);
-    graphics.clear();
+    this.load.image("player", "assets/player.png");
+    // graphics.fillStyle(0x00d9ff, 1);
+    // graphics.fillRoundedRect(0, 0, 40, 24, 4);
+    // graphics.generateTexture("player", 40, 24);
+    // graphics.clear();
 
     graphics.fillStyle(0xff6666, 1);
     graphics.fillRoundedRect(0, 0, 28, 28, 6);
